@@ -1,8 +1,8 @@
 use crate::d3::D3;
 use crate::dim::Dim;
 
-#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 /// Marker type for four-dimensional collections.
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 pub struct D4;
 
 impl Dim for D4 {

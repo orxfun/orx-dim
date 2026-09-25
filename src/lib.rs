@@ -24,6 +24,7 @@ mod d4;
 mod d_never;
 mod dim;
 
+pub use d_never::{DNever, IdxNever};
 pub use d1::D1;
 pub use d2::D2;
 pub use d3::D3;

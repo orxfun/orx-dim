@@ -1,8 +1,8 @@
 use crate::d_never::{DNever, IdxNever};
 use crate::dim::Dim;
 
-#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 /// Marker type for one-dimensional collections.
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 pub struct D1;
 
 impl Dim for D1 {
